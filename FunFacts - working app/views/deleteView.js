@@ -1,0 +1,10 @@
+import { del } from "../api.js";
+import page from "../node_modules/page/page.mjs";
+
+export async function onClick(e){
+    const confirmDeletion = confirm('Are you sure you want to delete?');
+    if (confirmDeletion){
+        del(`/data/facts/${e.target.dataset.id}`);
+        page.redirect('/catalog');
+    }
+}
