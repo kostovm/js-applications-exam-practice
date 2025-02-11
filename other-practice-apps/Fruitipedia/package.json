@@ -1,0 +1,25 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "lit-html": "^2.7.5",
+    "mocha": "^10.2.0",
+    "page": "^1.11.6"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.36.2"
+  }
+}
