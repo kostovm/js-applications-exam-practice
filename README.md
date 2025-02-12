@@ -11,7 +11,7 @@ This repository contains the final exam project for the SoftUni JavaScript Appli
    - **Features:**  
      - User registration and login  
      - Create, edit, and delete functionality for logged-in users  
-     - Bonus functionality like search or buttons (varies per app)  
+     - Like functionality for bonus points
      - **Practice server** and **HTML template** provided by SoftUni for the exam app
 
 2. **Practice Apps**  
